@@ -58,4 +58,4 @@ We analyze the performance and visual output of each technique, comparing how di
   .venv\Scripts\Activate.ps1
   ```
 - Install required packages: `pip3 install -r requirements.txt`.
-- Download the [dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset). Use the method you prefer. Put them on the `data/` directory.
+- Download the [dataset](https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset). Use the method you prefer. Put them on the `data/` directory.
