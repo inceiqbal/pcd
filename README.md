@@ -42,4 +42,20 @@ We analyze the performance and visual output of each technique, comparing how di
 - **Image Classification:** SVM / KNN used to classify TB vs. Normal based on extracted features
 - **Simple UI:** Upload interface to process a custom chest X-ray image
 
-## Project Structure
+## Collaboration
+
+- Clone the project and enter the directory:
+  ```
+  git clone https://codeberg.org/rvyhvn/brain-scan.git
+  cd brain-scan
+  ```
+- Initialize virtual environment and use the virtual environment:
+  ```sh
+  python3 -m venv .venv
+  # on Linux/MacOS
+  source .venv/bin/activate
+  # on Windows Powershell
+  .venv\Scripts\Activate.ps1
+  ```
+- Install required packages: `pip3 install -r requirements.txt`.
+- Download the [dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset). Use the method you prefer. Put them on the `data/` directory.
